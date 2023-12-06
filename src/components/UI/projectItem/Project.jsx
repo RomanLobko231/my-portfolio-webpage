@@ -12,7 +12,7 @@ const Project = ({project}) => {
                 gap: '20px'
             }}>
                 <div style={{ width: '20%', display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '16px'}}>
-                <h1>{project.name}</h1>
+                <h1 style={{color: '#574c4c'}}>{project.name}</h1>
                 <a target='_blank' rel='noopener noreferrer' href={project.link}>#link to github</a>
                 </div>
                 <Carousel images={project.src} />

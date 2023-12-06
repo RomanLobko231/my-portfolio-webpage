@@ -1,0 +1,17 @@
+.container {
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.item{
+    margin-right: 15%;
+}
+
+.photo {
+    border-radius: 50%;
+    max-height: 450px;
+    margin-right: 0;
+}

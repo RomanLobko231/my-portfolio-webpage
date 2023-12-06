@@ -1,18 +1,18 @@
+import ContactsRow from "../UI/contactsMain/ContactsRow";
+import GreetingsComponent from "../UI/greetings/GreetingsComponent";
 
 const Main = () => {
   return (
-    <div style={{ marginTop: '75px', marginBottom: '25px', display: 'flex', flexDirection: 'column'}}>
-       <div style={{width: '50vw', display: 'flex', gap: '60px', alignItems: 'center', margin: 'auto'}}>
-      <img src="/personal_photo.jpg" style={{borderRadius: '50%', maxHeight: '300px'}}/>
-      <h1>{"<--Yes, that is me, and i am glad to see you here! My name is Roman Lobko and i would describe myself as a young and ambitious developer that is eager to put a leg in a work life"}</h1>
+    <div style={{ marginTop: '105px', marginBottom: '25px', display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+      <GreetingsComponent/>
+      
+        <h1 style={{marginTop: '10%', fontSize: '45px'}}>Skills</h1>
+        <div style={{width: '80vw', display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
+          <h1>Can:</h1>
+          <h1>Familiar with:</h1>
+        </div>
     </div>
-    <div>
 
-    </div> 
-    <h2>{"<--Yes, that is me, and i am glad to see you here!\n\n My name is Roman Lobko and i would describe myself as a young and ambisious developer that is eager to put a leg in a work life"}</h2>
-
-    </div>
-    
   );
 };
 

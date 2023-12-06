@@ -5,8 +5,7 @@ const Projects = () => {
 
 
   return (
-    
-     <div style={{width: '100%', marginTop: '75px', marginBottom: '25px', display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
+     <div className='projects__page'>
         {projects.map( (project, index) => 
         <div >
            <Project project={project}/>
