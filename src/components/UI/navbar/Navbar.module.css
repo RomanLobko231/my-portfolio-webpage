@@ -32,7 +32,7 @@
     background-color: rgba(217,242,248, 0.4);
     position: fixed;
     backdrop-filter: blur(10px);
-    z-index: 10
+    z-index: 10;
 
   }
   

@@ -1,0 +1,28 @@
+.square {
+    flex: 0 0 calc(33.33% - 40px); /* Set initial width for three squares in a row */
+    max-width: 185px; /* Set max-width for three squares in a row */
+    aspect-ratio: 1;
+    border-radius: 18px;
+    background-color: rgb(212, 243, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .image__container {
+    width: 33.33%; /* Image width */
+    height: 33.33%; /* Image height */
+    object-fit: contain; 
+  }
+  
+  
+  .text__container {
+    padding: 10px; /* Adjust padding for text container */
+    text-align: center;
+    color: rgba(37, 13, 13, 0.8); /* Example background color for text */
+  }
+  
+  .text__container p {
+    margin: 0;
+  }
