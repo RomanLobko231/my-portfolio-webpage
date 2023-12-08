@@ -1,0 +1,19 @@
+.container {
+    height: 100vh;
+    width: 80vw;
+    
+}
+
+.skillset__text {
+    margin-top: 10%;
+    font-size: 55px;
+    text-align: center;
+    color: #2f234f;
+}
+
+.inner__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+}

@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F3FBFB;
+  background-color: #f7fcfc;
 }
 
 body {
@@ -61,7 +61,6 @@ body {
 
 
 .scroll-down {
-  position: absolute;
   bottom: 70px;
   display: flex;
   text-align: center;
@@ -72,7 +71,6 @@ body {
   height: 30px;
   border-bottom: 2px solid #322E30;
   border-right: 2px solid #322E30;
-  left: 50%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
   -moz-transform: translate(-50%, 0%) rotate(45deg);
   transform: translate(-50%, 0%) rotate(45deg);
@@ -100,11 +98,3 @@ body {
 }
 
 
-.skill__container {
-  flex-wrap: wrap; /* Enable wrapping */
-  display: flex;
-  gap: 17px 2%;
-  align-items: center;
-  justify-content: center;
-  align-content: space-around;
-}

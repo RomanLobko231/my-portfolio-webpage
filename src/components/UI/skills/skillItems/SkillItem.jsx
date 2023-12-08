@@ -1,11 +1,11 @@
 import cl from "./SkillItem.module.css"
 
-const SkillItem = ({ imageUrl, text }) => {
+const SkillItem = ({ name, src }) => {
   return (
     <div className={cl.square}>
-       <img className={cl.image__container} src="/java.png"/>
+       <img className={cl.image__container} src={src}/>
     <div className={cl.text__container}>
-      <p>{"text"}</p>
+      <p>{name}</p>
     </div>
         
     
