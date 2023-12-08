@@ -10,7 +10,7 @@ const GreetingsComponent = () => {
           <h1 style={{ color: '#5A7179' }}>Will you be the team I am looking for?</h1>
           <ContactsRow />
         </div>
-        <img src="/personal_photo.jpg" className={cl.photo} />
+        <img src="/personal_photo.jpg" className={cl.photo} alt="myself"/>
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10%' }}>
         <div class="scroll-down"></div>
