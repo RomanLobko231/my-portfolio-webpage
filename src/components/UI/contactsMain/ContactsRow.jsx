@@ -8,11 +8,11 @@ const ContactsRow = () => {
         <div className={cl.container}>
             <div className={cl.contacts__item}>
                 <BiLogoGmail />
-                <h4>roomen817@gmail.com</h4>
+                <a target='_blank' rel='noopener noreferrer' href="mailto:roomen817@gmail.com">roomen817@gmail.com</a>
             </div>
             <div className={cl.contacts__item}>
                 <DiGithubBadge />
-                <h4>github.link</h4>
+                <a target='_blank' rel='noopener noreferrer' href="https://github.com/RomanLobko231">Github</a>
             </div >
             <div className={cl.contacts__item}>
                 <MdLocalPhone/>

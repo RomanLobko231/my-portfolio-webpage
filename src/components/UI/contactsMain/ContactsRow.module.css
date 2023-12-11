@@ -10,5 +10,28 @@
     flex-direction: row;
     align-items: center;
     gap: 8px;
-    color: #7A9AA0
+    color: #66878d;
 }
+
+a {
+    font-size: large;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+    color: #66878d;
+  }
+  
+a:visited {
+    color: #66878d;
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: underline;
+    color: #7A9AA0
+  }
+  
+a:active {
+    text-decoration: underline;
+  }
