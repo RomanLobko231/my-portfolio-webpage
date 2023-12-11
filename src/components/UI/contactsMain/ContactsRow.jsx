@@ -8,7 +8,7 @@ const ContactsRow = () => {
         <div className={cl.container}>
             <div className={cl.contacts__item}>
                 <BiLogoGmail />
-                <a target='_blank' rel='noopener noreferrer' href="mailto:roomen817@gmail.com">roomen817@gmail.com</a>
+                <h3>roomen817@gmail.com</h3>
             </div>
             <div className={cl.contacts__item}>
                 <DiGithubBadge />
@@ -16,7 +16,7 @@ const ContactsRow = () => {
             </div >
             <div className={cl.contacts__item}>
                 <MdLocalPhone/>
-                <h4>+4793944025</h4>
+                <h3>+4793944025</h3>
             </div>
 
 
