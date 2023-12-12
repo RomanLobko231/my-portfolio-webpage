@@ -23,13 +23,13 @@ const Navbar = () => {
         <div className={`navElements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/">Main</NavLink>
+              <NavLink to="/" onClick={handleShowNavbar}>Main</NavLink>
             </li>
             <li>
-              <NavLink to="/blog">Blog</NavLink>
+              <NavLink to="/blog" onClick={handleShowNavbar}>Blog</NavLink>
             </li>
             <li>
-              <NavLink to="/personal-projects">Projects</NavLink>
+              <NavLink to="/personal-projects" onClick={handleShowNavbar}>Projects</NavLink>
             </li>
           </ul>
         </div>
