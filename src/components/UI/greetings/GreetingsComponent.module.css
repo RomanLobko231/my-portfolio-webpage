@@ -27,6 +27,11 @@
 
 
 @media (max-width: 1441px) {
+
+    .container{
+        display: flex;
+    flex-direction: column;
+    }
         .inner__container {
           flex-direction: column; /* Change to column layout on smaller screens */
         }
@@ -39,5 +44,6 @@
         .photo {
           margin-right: auto;
           margin-left: auto;
+          max-width: 100px;
         }
       }
