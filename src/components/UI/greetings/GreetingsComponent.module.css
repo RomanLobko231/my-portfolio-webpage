@@ -23,3 +23,26 @@
     max-height: 450px;
     margin-right: 0;
 }
+
+@media (max-width){
+
+    .container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    .item{
+        
+    }
+
+    .inner__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        margin-top: 8%;
+    }
+}
