@@ -24,7 +24,7 @@
     margin-right: 0;
 }
 
-@media (max-width){
+@media (max-width: 1440px){
 
     .container {
         width: 100vw;
@@ -38,6 +38,7 @@
     }
 
     .inner__container{
+        width: 95%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
