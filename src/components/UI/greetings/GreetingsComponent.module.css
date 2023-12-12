@@ -26,7 +26,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1441px) {
         .inner__container {
           flex-direction: column; /* Change to column layout on smaller screens */
         }
