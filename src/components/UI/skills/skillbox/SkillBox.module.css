@@ -13,3 +13,16 @@
     justify-content: center;
     align-content: space-around;
 }
+
+
+@media (max-width: 1000px){
+    .skill__container {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 17px 2%;
+        align-items: center;
+        justify-content: center;
+        align-content: space-around;
+        flex-direction: column;
+    }
+}
