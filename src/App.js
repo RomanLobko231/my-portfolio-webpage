@@ -7,9 +7,11 @@ function App() {
   return (
     <BrowserRouter>
     <Navbar />
+    <div style={{height: '100%'}}>
+
+      <AppRouter />
+    </div>
       
-        <AppRouter />
-    
     </BrowserRouter>
   );
 }

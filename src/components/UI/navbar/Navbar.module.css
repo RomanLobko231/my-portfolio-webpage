@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #fcfcfc;
+    background-color: #f7fcfc;
     
   }
   
@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    max-width: 3000px;
+    max-width: 2000px;
   }
 
   .customText {
