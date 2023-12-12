@@ -28,3 +28,18 @@
   .text__container p {
     margin: 0;
   }
+
+  @media (max-width: 1000px) {
+    .square {
+      width: 80%;
+      max-width: 185px; /* Set max-width for three squares in a row */
+      aspect-ratio: 1;
+      border-radius: 18px;
+      background-color: rgb(241, 249, 252);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
