@@ -40,6 +40,11 @@ body {
   position: relative;
 }
 
+.menu-icon {
+  display: none;
+}
+
+
 .navElements ul li a.active::after {
   content: '';
   position: absolute;
@@ -50,6 +55,38 @@ body {
   background-color: #574c4c;
 }
 
+@media (max-width: 1000px) {
+  .menu-icon {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+  }
+
+  .navElements {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: rgb(229, 243, 247);
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .navElements.active {
+    width: 270px;
+  }
+
+  .navElements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navElements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+}
 
 .projects__page {
   width: 100%;
