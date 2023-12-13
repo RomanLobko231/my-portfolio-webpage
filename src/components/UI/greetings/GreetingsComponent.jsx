@@ -1,17 +1,33 @@
-import ContactsRow from "../contactsMain/ContactsRow";
+import { useEffect, useState } from "react";
+import DesktopComponent from "./DesktopComponent";
 import cl from "./GreetingsComponent.module.css"
+import MobileComponent from "./MobileComponent";
 const GreetingsComponent = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  // Define a threshold width for conditional rendering
+  const thresholdWidth = 1050;
+
   return (
     <div className={cl.container}>
-      <div className={cl.inner__container}>
-        <div className={cl.item}>
-          <h1 className={cl.title__text}>Hi, my name is Roman Lobko</h1>
-          <h2 className={cl.body__text}>{"> I am a software developer with experience and solid knoweledge in backend world and strong desire to learn even more. Aimed to improve my skills and get hands-on experience in IT branch, I am currently in search for a job as a Java + Spring junior developer."}</h2>
-          <h1 className={cl.end__text}>Will you be the team I am looking for?</h1>
-          <ContactsRow />
-        </div>
-        <img src="/personal_photo.jpg" className={cl.photo} alt="myself"/>
-      </div>
+      {windowWidth < thresholdWidth ? (
+        <MobileComponent /> 
+      ) : (
+        <DesktopComponent /> 
+      )}
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10%' }}>
         <div class="scroll-down"></div>
       </div>

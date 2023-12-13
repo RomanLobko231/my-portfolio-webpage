@@ -41,7 +41,7 @@
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
 
     .container {
         display: flex;
@@ -62,7 +62,7 @@
     .photo {
         margin-right: auto;
         margin-left: auto;
-        max-width: 150px;
+        max-width: 175px;
     }
 
     .title__text {
