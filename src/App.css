@@ -97,6 +97,15 @@ body {
   flex-direction: column;
 }
 
+.about__page{
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .scroll-down {
   bottom: 70px;

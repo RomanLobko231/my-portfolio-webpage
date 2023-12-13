@@ -26,7 +26,8 @@ const Navbar = () => {
               <NavLink to="/" onClick={handleShowNavbar}>Main</NavLink>
             </li>
             <li>
-              <NavLink to="/blog" onClick={handleShowNavbar}>Blog</NavLink>
+            <NavLink to="/about-me" onClick={handleShowNavbar}>About me</NavLink>
+              {/* <NavLink to="/blog" onClick={handleShowNavbar}>Blog</NavLink> */}
             </li>
             <li>
               <NavLink to="/personal-projects" onClick={handleShowNavbar}>Projects</NavLink>
