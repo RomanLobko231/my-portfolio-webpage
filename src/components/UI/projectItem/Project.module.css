@@ -40,7 +40,6 @@
     }
 
     .container {
-        width: 90%; 
-        min-width: 300px;
+        width: 90vw; 
     }
 }
