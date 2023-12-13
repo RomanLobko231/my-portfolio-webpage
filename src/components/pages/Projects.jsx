@@ -1,4 +1,3 @@
-import Project from "../UI/projectItem/Project";
 import {projects} from "../../personalProjects";
 import ProjectWithLine from "../UI/projectItem/ProjectWithLine";
 
