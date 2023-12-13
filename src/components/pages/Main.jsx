@@ -1,10 +1,10 @@
-import SkillsetComponent from "../UI/skills/skillset/SkillsetComponent";
+import GreetingsComponent from "../UI/greetings/GreetingsComponent";
 
 const Main = () => {
   return (
     <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
-      {/* <GreetingsComponent /> */}
-      <SkillsetComponent />
+      <GreetingsComponent />
+      {/* <SkillsetComponent /> */}
     </div>
 
   );
