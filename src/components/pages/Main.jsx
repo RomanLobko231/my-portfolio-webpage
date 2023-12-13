@@ -1,5 +1,3 @@
-import GreetingsComponent from "../UI/greetings/GreetingsComponent";
-import SkillsetComponent from "../UI/skills/skillset/SkillsetComponent";
 
 const Main = () => {
   return (
