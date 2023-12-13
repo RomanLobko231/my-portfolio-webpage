@@ -32,7 +32,7 @@
   @media (max-width: 1000px) {
     .square {
       width: 80%;
-      max-width: 185px; /* Set max-width for three squares in a row */
+      max-width: 185px; 
       aspect-ratio: 1;
       border-radius: 18px;
       background-color: rgb(241, 249, 252);
