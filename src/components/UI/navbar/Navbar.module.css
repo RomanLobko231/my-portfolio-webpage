@@ -38,4 +38,14 @@
 
   }
   
+
+  @media (max-width: 1050px){
+    .customText{
+      font-size: 18px;
+    color: rgb(53, 51, 82);
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    }
+  }
   
