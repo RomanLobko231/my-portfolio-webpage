@@ -1,16 +1,17 @@
 import Project from "../UI/projectItem/Project";
 import {projects} from "../../personalProjects";
+import ProjectWithLine from "../UI/projectItem/ProjectWithLine";
 
 const Projects = () => {
-
-
   return (
      <div className='projects__page'>
         {projects.map( (project, index) => 
-        <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', width: '90%'}}>
-           <Project project={project}/>
-           {index !== projects.length - 1 && <hr style={{width: '40%'}}/>}
+        <div>
+               <ProjectWithLine project={project} projects={projects} index={index}/>
+
         </div>
+        
+
         )}
     </div>
 
