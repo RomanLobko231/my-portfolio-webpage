@@ -11,7 +11,7 @@ const Project = ({project}) => {
                 {project.link !== '' && <a target='_blank' rel='noopener noreferrer' href={project.link}>#link to github</a>}
                 </div>
                 <Carousel images={project.src} />
-                <p className={cl.project__description}>{project.description}</p>
+                <p style={{whiteSpace: 'pre-line'}}className={cl.project__description}>{project.description}</p>
             </div>
     );
 };

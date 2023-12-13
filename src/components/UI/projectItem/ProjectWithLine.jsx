@@ -4,7 +4,7 @@ const ProjectWithLine = ({project, projects, index}) => {
   return (
     <div className={cl.container}>
            <Project project={project}/>
-           {index !== projects.length - 1 && <hr style={{width: '40%'}}/>}
+           <hr style={{width: '40%'}}/>
         </div>
   );
 };
