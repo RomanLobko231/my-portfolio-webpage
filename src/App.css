@@ -83,7 +83,7 @@ body {
   }
 
   .navElements ul li {
-    margin-right: unset;
+    /* margin-right: unset; */
     margin-top: 22px;
   }
 }
