@@ -31,7 +31,7 @@
 
   @media (max-width: 1000px) {
     .square {
-      width: 80%;
+      width: 90%;
       max-width: 185px; 
       aspect-ratio: 1;
       border-radius: 18px;
