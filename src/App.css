@@ -89,7 +89,7 @@ body {
 }
 
 .projects__page {
-  width: 90vw; 
+  width: 90%; 
   min-width: 300px;
   margin-top: 75px;
   margin-bottom: 25px;
