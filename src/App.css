@@ -89,15 +89,14 @@ body {
 }
 
 .projects__page {
-  width: 90%; 
-  min-width: 300px;
+  align-items: center;
+  max-width: 2000px;
+  width: 100%;
   margin-top: 75px;
   margin-bottom: 25px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 2000px;
-
 }
 
 .about__page{
