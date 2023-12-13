@@ -12,13 +12,11 @@ const GreetingsComponent = () => {
 
     window.addEventListener('resize', handleResize);
 
-    // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  // Define a threshold width for conditional rendering
   const thresholdWidth = 1050;
 
   return (
