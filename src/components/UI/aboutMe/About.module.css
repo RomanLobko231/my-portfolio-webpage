@@ -36,7 +36,6 @@
 @media  (max-width: 1072px){
     .container{
         align-items: center;
-
         display: flex;
         flex-direction: column;
         justify-content: center;

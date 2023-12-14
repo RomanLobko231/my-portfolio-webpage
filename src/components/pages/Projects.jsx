@@ -7,7 +7,7 @@ const Projects = () => {
         {projects.map( (project, index) => 
                <ProjectWithLine project={project} projects={projects} index={index}/>
         )}
-        <a color='#5A7179' target='_blank' rel='noopener noreferrer' href="https://github.com/RomanLobko231">For Java Backend projects, please visit my Github</a>
+        <a color='#5A7179' style={{textAlign: 'center', fontSize:'smaller'}}target='_blank' rel='noopener noreferrer' href="https://github.com/RomanLobko231">For Java Backend projects, please visit my Github</a>
     </div>
 
   );
