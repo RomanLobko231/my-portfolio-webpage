@@ -33,6 +33,7 @@
     .square {
       width: 90%;
       max-width: 185px; 
+      min-width: 125px; 
       aspect-ratio: 1;
       border-radius: 18px;
       background-color: rgb(241, 249, 252);
