@@ -47,7 +47,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 8%;
-
+        width: 85%;
     }
 
     .inner__container {
@@ -66,9 +66,23 @@
         max-width: 175px;
     }
 
+
+    .body__text{
+        font-size: 13px;
+        color: #786362;
+    }
+
+    .end__text{
+        font-size: 20px;
+        color: #5A7179;
+        text-align: center;
+
+    }
+
     .title__text {
         font-size: 25px;
         color: #2f234f;
+        text-align: center;
     }
 
 }

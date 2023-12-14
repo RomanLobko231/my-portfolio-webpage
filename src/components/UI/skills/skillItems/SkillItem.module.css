@@ -30,10 +30,17 @@
   }
 
   @media (max-width: 1000px) {
+
+    .text__container {
+      margin-top: 10%;
+      padding: 4px; 
+      text-align: center;
+      color: #2f234f; 
+    }
     .square {
-      width: 90%;
+      width: 100%;
       max-width: 185px; 
-      min-width: 125px; 
+      min-width: 135px; 
       aspect-ratio: 1;
       border-radius: 18px;
       background-color: rgb(241, 249, 252);
@@ -41,6 +48,6 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
     }
   }
