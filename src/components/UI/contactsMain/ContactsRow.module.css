@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
     gap: 12%
 }
 
@@ -35,4 +34,14 @@ a:hover {
   
 a:active {
     text-decoration: underline;
+  }
+
+  @media (max-width: 1050px) {
+    .container{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 6%;
+      align-items: center;
+    }
   }
