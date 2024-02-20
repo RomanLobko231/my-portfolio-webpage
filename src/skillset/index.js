@@ -16,4 +16,6 @@ export const familiarSkills = [
     { name: 'HTML', src: '/skills_logos/html_logo.png' },
     { name: 'MySQL', src: '/skills_logos/mysql_logo.png' },
     { name: 'Thymeleaf', src: '/skills_logos/thymeleaf_logo.png' },
+    { name: 'JUnit 5', src: '/skills_logos/junit_logo.png' },
+    { name: 'Mockito', src: '/skills_logos/mockito_logo.png' },
 ]
