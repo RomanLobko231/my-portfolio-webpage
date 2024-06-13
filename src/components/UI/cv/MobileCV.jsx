@@ -6,7 +6,7 @@ const MobileCV = () => {
         borderRadius: '18px',
         width: '90%',
     }}
-    src="/Roman-Lobko-UtviklerCV-norsk1.jpg"
+    src="/Roman_Lobko_Utvikler_cv_page.jpg"
     alt="My CV"
     />
   );
