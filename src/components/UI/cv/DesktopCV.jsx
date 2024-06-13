@@ -3,7 +3,7 @@ const DesktopCV = () => {
     return (
         <iframe
             title="cv"
-            src="/Roman_Lobko_Utvikler_cv.pdf"
+            src="/Roman-Lobko-CV-english.pdf"
             type="application/pdf"
             style={{ width: '900px', height: '1200px' }}
         />
