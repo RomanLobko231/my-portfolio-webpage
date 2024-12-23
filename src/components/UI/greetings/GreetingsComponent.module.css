@@ -1,89 +1,85 @@
 .container {
-    width: 75vw;
-    display: flex;
-    flex-direction: column;
-    max-width: 2000px;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  max-width: 2000px;
 }
 
 .inner__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    margin-top: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 8%;
 }
 
 .item {
-    margin-right: 15%;
+  margin-right: 15%;
 }
 
 .photo {
-    border-radius: 50%;
-    max-height: 450px;
-    margin-right: 0;
+  border-radius: 50%;
+  max-height: 450px;
+  margin-right: 0;
 }
 
 .title__text {
-    font-size: 50px;
-    color: #2f234f;
+  font-size: 50px;
+  color: #2f234f;
 }
 
-.body__text{
-    font-size: 17px;
-    color: #786362;
+.body__text {
+  font-size: 20px;
+  color: #786362;
+  font-weight: 600;
 }
 
-.end__text{
-    font-size: 23px;
-    color: #5A7179;
+.end__text {
+  font-size: 23px;
+  color: #5a7179;
+  font-weight: 600;
 }
-
-
 
 @media (max-width: 1050px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    width: 85%;
+  }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 8%;
-        width: 85%;
-    }
+  .inner__container {
+    flex-direction: column;
+  }
 
-    .inner__container {
-        flex-direction: column;
-    }
+  .item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 
-    .item {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
+  .photo {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6%;
+    max-width: 175px;
+  }
 
-    .photo {
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 6%;
-        max-width: 175px;
-    }
+  .body__text {
+    font-size: 13px;
+    color: #786362;
+  }
 
+  .end__text {
+    margin-top: 10%;
+    font-size: 20px;
+    color: #5a7179;
+    text-align: center;
+  }
 
-    .body__text{
-        font-size: 13px;
-        color: #786362;
-    }
-
-    .end__text{
-        margin-top: 10%;
-        font-size: 20px;
-        color: #5A7179;
-        text-align: center;
-
-    }
-
-    .title__text {
-        font-size: 25px;
-        color: #2f234f;
-        text-align: center;
-    }
-
+  .title__text {
+    font-size: 25px;
+    color: #2f234f;
+    text-align: center;
+  }
 }
